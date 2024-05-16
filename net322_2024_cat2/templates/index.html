@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home | NET322</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+    }
+
+    .hero {
+        background-image: url('../assets/networking_background.jpg'); /* Replace 'networking_background.jpg' with your actual image */
+        background-size: cover;
+        background-position: center;
+        color: #fff;
+        text-align: center;
+        padding: 100px 20px;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero h1 {
+        font-size: 3rem;
+        margin-bottom: 20px;
+    }
+
+    .hero .btn {
+        padding: 10px 20px;
+        background-color: #4caf50;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        font-size: 1.2rem;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        text-decoration: none;
+    }
+
+    .hero .btn:hover {
+        background-color: #45a049;
+    }
+
+    .chevron-down {
+        margin-top: 20px;
+        font-size: 2rem;
+        animation: blink 1s infinite;
+    }
+
+    @keyframes blink {
+        0% {
+            opacity: 0.2;
+        }
+        50% {
+            opacity: 1;
+        }
+        100% {
+            opacity: 0.2;
+        }
+    }
+</style>
+</head>
+<body>
+
+<div class="hero">
+    <h1>NET322: Network Programming & Applications Development</h1>
+    <a href="#explore" class="btn">Explore</a>
+    <i class="fas fa-chevron-down chevron-down"></i>
+</div>
+
+<!-- Add more sections/content here -->
+
+</body>
+</html>
